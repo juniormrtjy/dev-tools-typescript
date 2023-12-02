@@ -2,16 +2,16 @@ import Link from 'next/link'
 import './style.scss'
 
 export const links = [
-  { linkName: 'Inspiration' },
-  { linkName: 'Colors' },
-  { linkName: 'Master' },
-  { linkName: 'HTML5' },
-  { linkName: 'Fonts' },
-  { linkName: 'Images' },
-  { linkName: 'Icons' },
-  { linkName: 'Templates' },
-  { linkName: 'Challenges' },
-  { linkName: 'Others' }
+  { linkName: 'Inspiration', key: 'inspiration' },
+  { linkName: 'Colors', key: 'colors' },
+  { linkName: 'Master', key: 'master' },
+  { linkName: 'HTML5', key: 'html5' },
+  { linkName: 'Fonts', key: 'fonts' },
+  { linkName: 'Images', key: 'images' },
+  { linkName: 'Icons', key: 'icons' },
+  { linkName: 'Templates', key: 'templates' },
+  { linkName: 'Challenges', key: 'challenges' },
+  { linkName: 'Others', key: 'others' }
 ]
 
 export default function NavBar() {
@@ -19,8 +19,8 @@ export default function NavBar() {
     <div className="header">
       <h1>Dev Tools</h1>
       <ul className="menu">
-        {links.map(({ linkName }) => (
-          <li>
+        {links.map(({ linkName, key }) => (
+          <li key={key}>
             <Link href={''}>{linkName}</Link>
           </li>
         ))}
