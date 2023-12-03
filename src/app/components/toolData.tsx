@@ -27,14 +27,14 @@ export const toolData: ToolCategory[] = [
       {
         name: 'onepagelove.jpg',
         imgAlt: 'One Page love image',
-        linkName: 'One Page love',
+        linkName: 'One Page Love',
         linkTo: 'https://onepagelove.com/inspiration',
         linkAria: 'One Page love link'
       },
       {
-        name: 'Screenlane.png',
+        name: 'screenlane.png',
         imgAlt: 'Screenlane image',
-        linkName: 'Screelane',
+        linkName: 'Screenlane',
         linkTo: 'https://screenlane.com/',
         linkAria: 'Screenlane link'
       },
@@ -108,10 +108,10 @@ export const toolData: ToolCategory[] = [
       },
       {
         name: 'joshwcomeau.png',
-        imgAlt: 'Joshw Comeau image',
-        linkName: 'Joshw Comeau',
+        imgAlt: 'Josh Comeau image',
+        linkName: 'Josh Comeau',
         linkTo: 'https://www.joshwcomeau.com/',
-        linkAria: 'Joshw Comeau link'
+        linkAria: 'Josh Comeau link'
       }
     ]
   },

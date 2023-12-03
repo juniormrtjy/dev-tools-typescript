@@ -1,7 +1,6 @@
 import Link from 'next/link'
 import './style.scss'
 import { toolData } from '../toolData'
-import Image from 'next/image'
 
 export default function NavBar() {
   return (
@@ -10,7 +9,7 @@ export default function NavBar() {
       <ul className="menu">
         {toolData.map(({ title, id }) => (
           <li key={id}>
-            <Link href={''}>{title}</Link>
+            <Link href={`#${title}`}>{title}</Link>
           </li>
         ))}
       </ul>

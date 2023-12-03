@@ -9,7 +9,7 @@ export default function ToolBox() {
     <div className="section">
       {toolData.map(({ id, title, tools }) => (
         <div className="tool-box" key={id}>
-          <h2>{title}</h2>
+          <h2 id={title}>{title}</h2>
 
           <ul>
             {tools.map(
