@@ -1,7 +1,6 @@
 import { toolData } from '../toolData'
 import Image from 'next/image'
 import './style.scss'
-import ToolBoxComponent from './component'
 import Link from 'next/link'
 
 export default function ToolBox() {
