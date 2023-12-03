@@ -22,6 +22,10 @@ body {
 
 html {
   font-size: 62.5%;
+
+  @media(max-width:445px) {
+    font-size: 55%;
+  }
 }
 
 body {
@@ -30,4 +34,17 @@ body {
 
 a {
   text-decoration: none;
+}
+
+.section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+
+  @media(max-width:785px) {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+  @media(max-width:445px) {
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+  }
 }
