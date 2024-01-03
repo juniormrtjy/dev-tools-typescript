@@ -85,6 +85,13 @@ export const toolData: ToolCategory[] = [
         linkName: 'UI Colors',
         linkTo: 'https://uicolors.app/create',
         linkAria: 'UI Colors link'
+      },
+      {
+        name: 'happy-hues.png',
+        imgAlt: 'Happy Hues img',
+        linkName: 'Happy Hues',
+        linkTo: 'https://www.happyhues.co/',
+        linkAria: 'Happy Hues link'
       }
     ]
   },
@@ -268,6 +275,13 @@ export const toolData: ToolCategory[] = [
         linkName: 'Frontend Mentor',
         linkTo: 'https://www.frontendmentor.io/challenges',
         linkAria: 'Frontend Mentor link'
+      },
+      {
+        name: 'hacker-rank.png',
+        imgAlt: 'Hacker Rank image',
+        linkName: 'Hacker Rank',
+        linkTo: 'https://www.hackerrank.com/dashboard',
+        linkAria: 'Hacker Rank link'
       }
     ]
   },
