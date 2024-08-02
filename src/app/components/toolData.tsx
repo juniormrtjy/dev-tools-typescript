@@ -315,6 +315,61 @@ export const toolData: ToolCategory[] = [
         linkName: 'Pixel Art CSS',
         linkTo: 'https://pixelartcss.com/',
         linkAria: 'Piexelarts link'
+      },
+      {
+        name: 'chatgpt.png',
+        imgAlt: 'ChatGPT image',
+        linkName: 'ChatGPT',
+        linkTo: 'https://chat.openai.com/chat',
+        linkAria: 'ChatGPT link'
+      }
+    ]
+  },
+  {
+    id: 'Estudos',
+    title: 'Estudos',
+    tools: [
+      {
+        name: 'khan-academy.png',
+        imgAlt: 'Khan Academy image',
+        linkName: 'Khan Academy',
+        linkTo: 'https://pt.khanacademy.org/',
+        linkAria: 'Khan Academy'
+      },
+      {
+        name: 'agatha-edu.png',
+        imgAlt: 'Projeto Agatha Edu image',
+        linkName: 'Projeto Agatha Edu',
+        linkTo:
+          'https://projetoagathaedu.com.br/cronograma/enem-tres-meses.php',
+        linkAria: 'Projeto Agatha Edu'
+      }
+    ]
+  },
+  {
+    id: 'Mídias',
+    title: 'Mídias',
+    tools: [
+      {
+        name: 'linkedin.png',
+        imgAlt: 'Linkedin image',
+        linkName: 'Linkedin',
+        linkTo: 'https://www.linkedin.com/in/juniormrtjy/',
+        linkAria: 'Linkedin link'
+      },
+      {
+        name: 'discord.png',
+        imgAlt: 'Discord image',
+        linkName: 'Discord',
+        linkTo: 'https://discord.com/channels/@me',
+        linkAria: 'Discord link'
+      },
+      {
+        name: 'instagram.png',
+        imgAlt: 'Instagram image',
+        linkName: 'Instagram',
+        linkTo: 'https://www.instagram.com/',
+        linkAria: 'Instagram link'
       }
     ]
   }
