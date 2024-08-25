@@ -263,13 +263,6 @@ export const toolData: ToolCategory[] = [
     title: 'Challenges',
     tools: [
       {
-        name: 'codewell.png',
-        imgAlt: 'Codewell image',
-        linkName: 'Codewell',
-        linkTo: 'https://www.codewell.cc/',
-        linkAria: 'Codewell'
-      },
-      {
         name: 'frontendmentor.png',
         imgAlt: 'Frontend Mentor image',
         linkName: 'Frontend Mentor',
