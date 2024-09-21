@@ -315,6 +315,13 @@ export const toolData: ToolCategory[] = [
         linkName: 'ChatGPT',
         linkTo: 'https://chat.openai.com/chat',
         linkAria: 'ChatGPT link'
+      },
+      {
+        name: 'codepen-io.png',
+        imgAlt: 'Codepen-io image',
+        linkName: 'Codepen',
+        linkTo: 'https://codepen.io/',
+        linkAria: 'Codepen link'
       }
     ]
   },
